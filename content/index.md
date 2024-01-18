@@ -19,5 +19,3 @@ I'm Zsolt, a **Computer Science Engineering** student from Hungary at University
 * My contact e-mail
 * And hopefully some blog-posts later on !
 {{</ card >}}
-
-

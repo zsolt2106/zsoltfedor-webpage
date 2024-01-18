@@ -3,7 +3,7 @@
 # https://gohugo.io/getting-started/configuration #
 ###################################################
 
-baseURL = "https://zsolt2106.github.io/zsoltfedor-webpage" # website root path
+baseURL = "https://zsolt2106.github.io/zsoltfedor-webpage/" # website root path
 disqusShortname = ""                      # disqus shortcode
 enableGitInfo = false                     # retrieve last modified date from git commits
 enableRobotsTXT = true                    # /robots.txt
@@ -55,13 +55,9 @@ tags = "tags"
 ########################
 
 [params]
-description = "an example site for hugo theme TeXify" # website description
+description = "my website with hugo theme TeXify" # website description
 favicon = "favicon.ico" # path to website icon, relative to ./static
 footnote = """
-Follow me on <a class=link href=https://github.com/queensferryme>GitHub</a>,
-<a class=link href=https://twitter.com/queensferryme>Twitter</a> or
-<a class=link href=/index.xml>RSS</a> |
-<a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
 """ # notes in the website footer
 keywords = ["hugo", "latex", "theme"] # website keywords
 
