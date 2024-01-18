@@ -1,8 +1,7 @@
 +++
-title = "AboutA"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-author = "Hugo Authors"
+title = "Index"
+description = "My landing page - powered by Hugo"
+
 +++
 🧑‍💻 Hello there ! 
 ---
