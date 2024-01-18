@@ -1,0 +1,133 @@
+/* Vars */
+:root {
+
+    --font-size: 1.15rem;
+    --line-height: 1.5;
+
+    --border-radius: 1rem;
+    --border-radius-small: 0.5rem;
+
+    --color-background-alt: #C9C9C9;
+    --color-text: #334155;
+    --color-text-bright: #1e293b;
+    --color-text-strong: #020617;
+    --color-subtext: #475569;
+    --color-primary: #db2777;
+    --color-accent: #0284c7;
+}
+
+
+
+@media screen and (max-width: 64rem) {
+    body {
+        font-size: 1.125rem;
+    }
+}
+
+
+
+pre {
+    background-color: var(--color-background-code) !important;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    overflow: auto;
+    border-radius: var(--border-radius-small);
+    padding: 1.6rem 1.8rem 1.8rem;
+    margin-bottom: 3rem;
+}
+
+
+
+/* Page layout */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    max-width: 72rem;
+    padding: 3rem 0;
+    margin: 0 auto 2rem;
+
+    line-height: 1.6;
+}
+
+.content>* {
+    grid-column: 3/span 8;
+}
+
+.content>.full-width {
+    grid-column: 2/span 10;
+}
+
+.content-inner {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.content-inner>* {
+    grid-column: 2/span 8;
+}
+
+.content-inner>.full-width {
+    grid-column: 1/-1;
+}
+
+
+@media screen and (max-width: 64rem) {
+    .content {
+        padding-top: 1rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-bottom: 0;
+    }
+
+    .content>* {
+        grid-column: 2/span 10;
+    }
+
+    .content>.full-width {
+        grid-column: 1/-1;
+    }
+
+    .content-inner {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 48rem) {
+
+    .content>*,
+    .content-inner>* {
+        grid-column: 1/-1;
+    }
+}
+
+
+
+/* Card */
+
+.card {
+    margin-bottom: 3rem;
+    padding: 1.25rem 0 2.75rem;
+    position: relative;
+}
+
+.card-background {
+    background-color: var(--color-background-alt);
+    border-radius: var(--border-radius);
+    position: absolute;
+    width: calc(100% + 10vw);
+    height: 100%;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    inset: 0;
+}
+
+.card-content {
+    position: relative;
+}
+
+@media screen and (max-width: 48rem) {
+    .card-background {
+        border-radius: 0;
+    }
+}
