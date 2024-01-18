@@ -31,7 +31,7 @@ style = "emacs" # syntax highlight style, see https://xyproto.github.io/splash/d
 [[menu.main]]
 identifier = "index" # section id
 name = "Home"       # section display title
-url = "/homepage/"           # path to the section
+url = "/"           # path to the section
 weight = 1          # order of sections
 [[menu.main]]
 identifier = "projects"
