@@ -3,7 +3,7 @@
 # https://gohugo.io/getting-started/configuration #
 ###################################################
 
-baseURL = "https://zsolt2106.github.io/zsoltfedor-webpage/" # website root path
+baseURL = "/" # website root path
 disqusShortname = ""                      # disqus shortcode
 enableGitInfo = false                     # retrieve last modified date from git commits
 enableRobotsTXT = true                    # /robots.txt
@@ -29,14 +29,14 @@ style = "emacs" # syntax highlight style, see https://xyproto.github.io/splash/d
 
 # https://gohugo.io/content-management/menus/
 [[menu.main]]
-identifier = "index" # section id
+identifier = "_index" # section id
 name = "Home"       # section display title
-url = "/"           # path to the section
+url = "/homepage"           # path to the section
 weight = 1          # order of sections
 [[menu.main]]
 identifier = "projects"
 name = "My Projects"
-url = "/projects/"
+url = "/projects"
 weight = 2
 [[menu.main]]
 identifier = "about"
