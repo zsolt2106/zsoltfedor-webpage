@@ -3,7 +3,7 @@
 # https://gohugo.io/getting-started/configuration #
 ###################################################
 
-baseURL = "https://texify.queensferry.me" # website root path
+baseURL = "https://zsolt2106.github.io/zsoltfedor-webpage/" # website root path
 disqusShortname = ""                      # disqus shortcode
 enableGitInfo = false                     # retrieve last modified date from git commits
 enableRobotsTXT = true                    # /robots.txt
@@ -16,8 +16,8 @@ theme = "hugo-theme-texify"               # theme directory name
 title = "TeXify"                          # website title
 
 [author]
-email = "me@example.com" # your email
-name = "author"          # your name
+email = "zsolt2106@gmail.com" # your email
+name = "zsolt2106"          # your name
 
 # https://gohugo.io/getting-started/configuration-markup
 [markup]
