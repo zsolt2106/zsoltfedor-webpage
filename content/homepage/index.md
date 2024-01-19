@@ -8,7 +8,7 @@ description = "My landing page - powered by Hugo"
 ---  
 
 
-I'm Zsolt, a **Computer Science Engineering** student from Hungary at **University of Debrecen** and I'm **at the brink of graduation** (Only one course away from my pre-degree certificate, which I hopefully complete next semester.). Currently looking for a job or internship opportunuties, mainly in DevOps or Software Developement but quite intrested in almost everything.
+I'm Zsolt, a **Computer Science Engineering** student from Hungary, enrolled at **University of Debrecen** and I'm **at the brink of graduation** (Only one course away from my pre-degree certificate, which I hopefully complete next semester). Currently looking for a job or internship opportunuties, mainly in DevOps or Software Developement but quite intrested in almost everything.
 
 
 {{< card >}}
