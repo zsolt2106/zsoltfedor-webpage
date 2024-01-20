@@ -14,6 +14,13 @@ description = "Things I have made either for university assignments or for mysel
   
 
 ---
+  
+<br><h3>Stuff I recently made in Android Studio</h3>
 
+  * [Compass application with a step counter](https://github.com/zsolt2106/AndroidStudioJavaCompass)
 
+    Written in Java
+  
+  * [Latitude and longitude application](https://github.com/zsolt2106/AndroidStudioKotlinLocation)
 
+    Written in Kotlin
